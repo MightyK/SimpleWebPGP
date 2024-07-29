@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web PGP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="container mt-5">
+            <div class="text-center">
+                <h1>Simple Web PGP</h1>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8 col-lg-6">
+                    <div id="buttons" class="text-center">
+                        <button id="generate-key" class="btn btn-primary btn-lg btn-block rounded-pill">Generate Keys</button>
+                        <button id="encrypt" class="btn btn-success btn-lg btn-block rounded-pill">Encrypt</button>
+                        <button id="decrypt" class="btn btn-info btn-lg btn-block rounded-pill">Decrypt</button>
+                    </div>
+                    <div id="output" class="mt-4">
+                        <h2 id="title" class="text-center">Please generate private/public key pair to begin!</h2>
+                        <form>
+                            <textarea id="input-text" class="form-control mt-3" placeholder="Enter the text you would like to encrypt"></textarea>
+                            <textarea id="output-text" class="form-control mt-3" placeholder="Encrypted text will output here"></textarea>
+                            <textarea id="private-key" class="form-control mt-3" placeholder="Insert your private key here"></textarea>
+                            <textarea id="public-key" class="form-control mt-3" placeholder="Insert recipient's public key here"></textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- OpenPGP library -->
+        <script src="https://unpkg.com/openpgp@latest/dist/openpgp.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

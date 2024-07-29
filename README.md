@@ -23,8 +23,7 @@ To run this application, you need a modern web browser with JavaScript enabled.
 ## How to Use
 
 1. **Open the Application**:
-    - Navigate to the <a href="https://mightyk.github.io/SimpleWebPGP/" target="_blank">index.html</a> file in your web browser.
-
+    - Navigate to the [`index.html`](https://mightyk.github.io/SimpleWebPGP/) file in your web browser.
 
 2. **Generate Keys**:
     - Click the `Generate Keys` button to generate a new pair of private and public keys.

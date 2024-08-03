@@ -59,10 +59,6 @@ To run this application, you need a modern web browser with JavaScript enabled.
 - [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css): For styling and responsive design.
 - [OpenPGP.js](https://unpkg.com/openpgp@latest/dist/openpgp.min.js): For PGP encryption and decryption functionalities.
 
-## Customization
-
-You can customize the styles in the `styles.css` file to match your preferred design. The JavaScript logic can be modified in the `main.js` file to add more features or change the existing behavior.
-
 ## Troubleshooting
 
 - **Key Generation Failed**: Ensure you are connected to the internet as the OpenPGP.js library is fetched from a CDN.
